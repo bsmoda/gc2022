@@ -1,1 +1,2 @@
 Nova linha no arquivo para merge
+teste para dar conflito no git merge
