@@ -1,0 +1,19 @@
+This is cutadapt 4.1 with Python 3.7.15
+Command line parameters: --quality-cutoff 30,30 -o desafio2-trimming/NA12878-20k_R1_cutadapt_Q30.fastq.gz -p desafio2-trimming/NA12878-20k_R2_cutadapt_Q30.fastq.gz /content/drive/MyDrive/GC2022-MATERIAIS/modulo6/data/NA12878-20k_R1.fastq.gz /content/drive/MyDrive/GC2022-MATERIAIS/modulo6/data/NA12878-20k_R2.fastq.gz
+Processing paired-end reads on 1 core ...
+Finished in 1.16 s (58 µs/read; 1.04 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             20,000
+Pairs written (passing filters):        20,000 (100.0%)
+
+Total basepairs processed:    10,000,000 bp
+  Read 1:     5,000,000 bp
+  Read 2:     5,000,000 bp
+Quality-trimmed:               3,160,115 bp (31.6%)
+  Read 1:       715,482 bp
+  Read 2:     2,444,633 bp
+Total written (filtered):      6,839,885 bp (68.4%)
+  Read 1:     4,284,518 bp
+  Read 2:     2,555,367 bp
